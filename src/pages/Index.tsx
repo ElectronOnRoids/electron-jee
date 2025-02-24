@@ -10,7 +10,7 @@ const Index = () => {
           Welcome to ElectronJEE
         </span>
         <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-secondary-600">
-          Your Gateway to JEE Excellence
+          Charge Your JEE/NSEP Preparation
         </h1>
         <p className="text-xl text-gray-600 mb-8">
           Join our platform for comprehensive JEE preparation with live classes,
