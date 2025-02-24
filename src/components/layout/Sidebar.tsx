@@ -36,7 +36,7 @@ export function Sidebar() {
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800">
             <h1 className={cn("font-bold text-xl", isCollapsed && "hidden")}>
-              Learn.io
+              ElectronJEE
             </h1>
             <button
               onClick={() => setIsCollapsed(!isCollapsed)}
@@ -81,3 +81,4 @@ export function Sidebar() {
     </div>
   );
 }
+
