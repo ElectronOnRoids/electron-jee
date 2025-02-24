@@ -42,6 +42,10 @@ export function AuthForm() {
         title: "Success!",
         description: "Please check your email to confirm your account.",
       });
+      // Redirect to dashboard after successful signup
+      if (signUpData.user) {
+        navigate("/dashboard");
+      }
     }
     setLoading(false);
   };
@@ -61,7 +65,7 @@ export function AuthForm() {
         title: "Error signing in",
         description: signInError.message,
       });
-    } else {
+    } else if (signInData.user) {
       navigate("/dashboard");
     }
     setLoading(false);

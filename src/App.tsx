@@ -8,6 +8,7 @@ import { Sidebar } from "./components/layout/Sidebar";
 import { AuthProvider } from "./contexts/AuthContext";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
+import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import { useAuth } from "./contexts/AuthContext";
 
@@ -71,7 +72,7 @@ const App = () => (
               path="/dashboard"
               element={
                 <ProtectedRoute>
-                  <div>Dashboard (Coming soon)</div>
+                  <Dashboard />
                 </ProtectedRoute>
               }
             />
